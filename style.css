@@ -1,0 +1,21 @@
+/* stylesheet for Uppgift 3 */
+
+:root {
+    --genPadd: 20px 0 20px 40px;
+}
+
+body { background-color:rgb(199, 223, 233); font-family: monospace, Helvetica, sans-serif; letter-spacing: 0.7pxpx;}
+
+H1 {color:#494975}
+
+#mainStyle {border: 2px solid #294677}
+
+.oneSection {min-height: 200px; padding: var(--genPadd);}
+
+.twoSection {background-color:#95afca; padding: var(--genPadd)}
+
+footer {padding: var(--genPadd); min-height: 100px}
+#nameAppears {color:black}
+
+button { background-color: rgb(32, 63, 122); color:#ffffff; padding: 7px 7px 7px 7px; letter-spacing: 0.7px;}
+.buttonAdd:focus {outline: 2px solid rgb(94, 183, 241)}

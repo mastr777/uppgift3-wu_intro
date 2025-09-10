@@ -1,4 +1,6 @@
 function myClicker() {
   document.getElementById("changeText").innerHTML = "Goodbye World. ."; 
   document.getElementById("nameAppears").innerHTML = "Mattias Strandberg";
+
+  setTimeout(function() { location.reload(); }, 5000 );
 };

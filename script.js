@@ -1,3 +1,5 @@
+// Old version (works)
+
 function myClicker() {
  
   document.querySelector("#changeText").innerHTML = "Goodbye World. ."; 
@@ -10,7 +12,7 @@ function myClicker() {
 // ---------------------------------------------------------------------------------------
 
 
-// Added querySelector / EventListener version
+// Added querySelector / EventListener, New version
 
 
 /* const changeText = document.querySelector("#changeText");

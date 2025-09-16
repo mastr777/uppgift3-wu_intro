@@ -12,7 +12,7 @@ function myClicker() {
 // ---------------------------------------------------------------------------------------
 
 
-// Added querySelector / EventListener, New version
+// Added querySelector / EventListener, variables - New version
 
 
 /* const changeText = document.querySelector("#changeText");

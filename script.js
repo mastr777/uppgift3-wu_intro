@@ -1,29 +1,18 @@
-// Old version (works)
-
-function myClicker() {
- 
-  document.querySelector("#changeText").innerHTML = "Goodbye World. ."; 
-  document.querySelector("#nameAppears").innerHTML = "Mattias Strandberg";
-  document.querySelector("#refreshText").innerHTML = "(site will be refreshed in 7 seconds. .)";
-
-  setTimeout(function() { location.reload(); }, 7000 );
-};
-
-// ---------------------------------------------------------------------------------------
-
 
 // Added querySelector / EventListener, variables - New version
 
 
-/* const changeText = document.querySelector("#changeText");
+const changeText = document.querySelector("#changeText");
 const nameAppears = document.querySelector("#nameAppears");
 const refreshText = document.querySelector("#refreshText");
+const happening = document.querySelector("#buttonClick");
 
-changeText.addEventListener("click", myClicker);
-nameAppears.addEventListener("click", myClicker);
-refreshText.addEventListener("click", myClicker);
+changeText.addEventListener("click", thisClick);
+nameAppears.addEventListener("click", thisClick);
+refreshText.addEventListener("click", thisClick);
+happening.addEventListener("click", thisClick);
 
-function myClicker() {
+function thisClick() {
   changeText.textContent = "Goodbye World. .";
 
   nameAppears.textContent = "Mattias Strandberg";
@@ -31,4 +20,19 @@ function myClicker() {
   refreshText.textContent = "(site will be refreshed in 7 seconds. .)";
 
   setTimeout(function() { location.reload(); }, 7000 );
+};
+
+// ---------------------------------------------------------------------------------------
+
+// Old working version (test version with onClick in index.html)
+
+/* function myClicker() {
+ 
+  document.querySelector("#changeText").innerHTML = "Goodbye World. ."; 
+  document.querySelector("#nameAppears").innerHTML = "Mattias Strandberg";
+  document.querySelector("#refreshText").innerHTML = "(site will be refreshed in 7 seconds. .)";
+
+  setTimeout(function() { location.reload(); }, 7000 );
 }; */
+
+
